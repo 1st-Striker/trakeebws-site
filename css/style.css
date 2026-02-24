@@ -13,10 +13,12 @@
 
 body {
     font-family: 'IBM Plex Sans Arabic', sans-serif;
-    background: url("../assets/bg.jpg") center/cover no-repeat fixed;
+    background-image: url("../assets/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     color: var(--text-light);
-    height: 100vh;
-    overflow: hidden;
+    min-height: 100vh;
 }
 
 /* Main Layout */
@@ -181,4 +183,5 @@ h1 {
     .card {
         height: 220px;
     }
+
 }
